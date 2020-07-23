@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<link
+			href="https://fonts.googleapis.com/css2?family=Bungee+Inline&family=Bungee+Outline&family=Press+Start+2P&family=Vast+Shadow&display=swap"
+			rel="stylesheet"
+		/>
+		<link rel="stylesheet" href="maze3.css" />
+		<meta charset="UTF-8" />
+		<title>Maze-Solver 3000</title>
+	</head>
+	<body id="body">
+		<div>
+			<h1 id="heading" class="heading">MAZE - SOLVER 3000</h1>
+			<canvas id="myCanvas" class="myCanvas" width="1156" height="721"></canvas>
+			<div class="button-container">
+				<div class="dropdown">
+					<button
+						id="drop-button"
+						class="buttons-default"
+						onclick="showDropDown()"
+					>
+						Theme
+					</button>
+					<div class="dropdown-content">
+						<button onclick="setTheme(3)" class="theme desert-button">
+							Desert
+						</button>
+						<button onclick="setTheme(2)" class="theme forest-button">
+							Forest
+						</button>
+						<button onclick="setTheme(1)" class="theme ocean-button">
+							Ocean
+						</button>
+						<button onclick="setTheme(0)" class="theme">Default</button>
+					</div>
+				</div>
+				<button id="btn1" onclick="solveMaze()" class="buttons-default bigger">
+					Solve
+				</button>
+				<button id="btn2" onclick="reset()" class="buttons-default">
+					Reset
+				</button>
+			</div>
+		</div>
+		<p id="solution" class="solution"></p>
+		<p id="outcome"></p>
+		<script src="maze3.js"></script>
+	</body>
+</html>

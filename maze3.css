@@ -1,0 +1,170 @@
+body {
+	background-color: #222222;
+	display: flex;
+	justify-content: center;
+}
+
+.heading {
+	font-family: "Bungee Outline", cursive;
+	display: flex;
+	justify-content: center;
+	color: #ff7d0a;
+	font-size: 250%;
+	margin-top: 15px;
+	margin-bottom: 0px;
+}
+
+.myCanvas {
+	margin: 25px;
+	padding: 3px;
+	border: 3px #c20071 solid;
+	border-radius: 5px;
+}
+
+#outcome {
+	display: none;
+}
+
+.solution {
+	font-family: "Bungee Inline", cursive;
+	font-size: 400%;
+	display: flex;
+	margin-top: 402px;
+	justify-content: center;
+	position: absolute;
+	color: #aa0000;
+	background-color: rgba(0, 0, 0, 0.652);
+	border-radius: 10px;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+.button-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.buttons-default {
+	font-size: 180%;
+	color: #ff7d0a;
+	background-color: #222222;
+	border: #ff7d0a 2px solid;
+	width: 150px;
+	height: 40px;
+	border-radius: 5px;
+	font-family: "Bungee Outline", cursive;
+}
+
+.bigger {
+	margin-right: 30px;
+	margin-left: 30px;
+	font-size: 250%;
+	height: 55px;
+	width: 250px;
+	font-family: "Bungee Outline", cursive;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+	position: relative;
+	display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+	display: none;
+	position: absolute;
+	background-color: #222222;
+	padding-top: 10px;
+	width: 150px;
+	z-index: 1;
+	bottom: 40px;
+	border-radius: 5px;
+}
+.dropdown:hover .dropdown-content {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.theme {
+	width: 130px;
+	height: 50px;
+	margin-bottom: 6px;
+	background-color: #161616;
+	font-family: "Bungee Inline", cursive;
+	font-size: 130%;
+	border-radius: 5px;
+	color: #c20071;
+	border: #c20071 2px solid;
+}
+.theme:hover {
+	background-color: #3a0021;
+}
+
+.ocean-button {
+	color: #0393c7;
+	border: #0393c7 2px solid;
+}
+.ocean-button:hover {
+	background-color: #002c3b;
+}
+
+.forest-button {
+	color: #039703;
+	border: #039703 2px solid;
+}
+.forest-button:hover {
+	background-color: #002d00;
+}
+
+.desert-button {
+	color: #ffb65c;
+	border: #ffb65c 2px solid;
+}
+.desert-button:hover {
+	background-color: #683900;
+}
+
+.ocean {
+	background-color: #000622;
+	color: #0393c7;
+	border-color: #0393c7;
+}
+
+.ocean2 {
+	border: 3px #ffffff solid;
+}
+.ocean3 {
+	color: white;
+	background-color: rgba(0, 0, 63, 0.652);
+}
+
+.forest {
+	background-color: #0a2400;
+	color: #039703;
+	border-color: #039703;
+}
+
+.forest2 {
+	border: 3px #039703 solid;
+}
+.forest3 {
+	color: #039703;
+	background-color: rgba(0, 46, 2, 0.652);
+}
+
+.desert {
+	background-color: #ffe090;
+	color: #613610;
+	border-color: #613610;
+}
+
+.desert2 {
+	border: 3px #683900 solid;
+}
+.desert3 {
+	color: #ede975;
+	background-color: rgba(65, 17, 0, 0.652);
+}
